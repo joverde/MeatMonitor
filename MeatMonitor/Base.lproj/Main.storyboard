@@ -1,24 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MeatMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UJE-oI-uMx">
+                                <rect key="frame" x="171" y="634" width="75" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Connect"/>
+                                <connections>
+                                    <action selector="scanButtonTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="V1H-L6-e60"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddl-Bc-xee">
+                                <rect key="frame" x="157" y="706" width="100" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Disconnect"/>
+                                <connections>
+                                    <action selector="disconnectTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DKa-xx-ObO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Mg-jA-1dU">
+                                <rect key="frame" x="182" y="785" width="50" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Reset"/>
+                                <connections>
+                                    <action selector="resetTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ysb-QP-rI6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Fat Percentage:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IF3-ZO-SBd">
+                                <rect key="frame" x="83" y="58" width="249" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
+                                <color key="textColor" red="0.90155702829999995" green="0.56115746499999997" blue="0.54899853470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.90155702829999995" green="0.56115746499999997" blue="0.54899853470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NULL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fsl-ZL-h42">
+                                <rect key="frame" x="140" y="101" width="134" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="pvm-zX-Gw6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="28"/>
+                                <color key="textColor" red="0.90155702829999995" green="0.56115746499999997" blue="0.54899853470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="highlightedColor" red="0.90155702829999995" green="0.56115746499999997" blue="0.54899853470000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="1" height="1"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="IF3-ZO-SBd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="14" id="E6R-nC-LGZ"/>
+                            <constraint firstItem="UJE-oI-uMx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="171" id="N3J-JE-JKr"/>
+                            <constraint firstItem="Ddl-Bc-xee" firstAttribute="top" secondItem="UJE-oI-uMx" secondAttribute="bottom" constant="36" id="SWb-OH-iiH"/>
+                            <constraint firstItem="Fsl-ZL-h42" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="TMf-mw-L8L"/>
+                            <constraint firstItem="Fsl-ZL-h42" firstAttribute="centerX" secondItem="Ddl-Bc-xee" secondAttribute="centerX" id="Tnv-kF-8HH"/>
+                            <constraint firstItem="Fsl-ZL-h42" firstAttribute="top" secondItem="IF3-ZO-SBd" secondAttribute="bottom" constant="8" id="UZv-2O-Ieo"/>
+                            <constraint firstItem="IF3-ZO-SBd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dFn-n1-bgO"/>
+                            <constraint firstItem="IF3-ZO-SBd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="83" id="fW5-YM-2JY"/>
+                            <constraint firstItem="IF3-ZO-SBd" firstAttribute="centerX" secondItem="Fsl-ZL-h42" secondAttribute="centerX" id="gpN-yQ-dPo"/>
+                            <constraint firstItem="5Mg-jA-1dU" firstAttribute="top" secondItem="Ddl-Bc-xee" secondAttribute="bottom" constant="43" id="m2b-Gi-7YG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5Mg-jA-1dU" secondAttribute="bottom" constant="41" id="mAs-Tc-2Iz"/>
+                            <constraint firstItem="Ddl-Bc-xee" firstAttribute="centerX" secondItem="5Mg-jA-1dU" secondAttribute="centerX" id="uhN-cN-v3Z"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="connectButton" destination="UJE-oI-uMx" id="TMj-hv-abA"/>
+                        <outlet property="disconnectButton" destination="Ddl-Bc-xee" id="E2w-aQ-92t"/>
+                        <outlet property="fatPercentage" destination="Fsl-ZL-h42" id="af3-qI-lVd"/>
+                        <outlet property="resetButton" destination="5Mg-jA-1dU" id="lEg-Di-Xng"/>
+                    </connections>
+                </viewController>
             </objects>
+            <point key="canvasLocation" x="-20.289855072463769" y="125.89285714285714"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

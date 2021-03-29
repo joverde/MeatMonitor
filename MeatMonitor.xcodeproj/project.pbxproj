@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		221FA80326118D1C00F4713C /* EITKitMobile in Frameworks */ = {isa = PBXBuildFile; productRef = 221FA80226118D1C00F4713C /* EITKitMobile */; };
 		229DAADF261186AC0082A728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAADE261186AC0082A728 /* AppDelegate.swift */; };
 		229DAAE1261186AC0082A728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAE0261186AC0082A728 /* SceneDelegate.swift */; };
 		229DAAE3261186AC0082A728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAE2261186AC0082A728 /* ViewController.swift */; };
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221FA80326118D1C00F4713C /* EITKitMobile in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +149,9 @@
 			dependencies = (
 			);
 			name = MeatMonitor;
+			packageProductDependencies = (
+				221FA80226118D1C00F4713C /* EITKitMobile */,
+			);
 			productName = MeatMonitor;
 			productReference = 229DAADB261186AC0082A728 /* MeatMonitor.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 229DAAD2261186AC0082A728;
+			packageReferences = (
+				221FA80126118D1C00F4713C /* XCRemoteSwiftPackageReference "EITKitMobile" */,
+			);
 			productRefGroup = 229DAADC261186AC0082A728 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -597,6 +605,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		221FA80126118D1C00F4713C /* XCRemoteSwiftPackageReference "EITKitMobile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joverde/EITKitMobile";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		221FA80226118D1C00F4713C /* EITKitMobile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221FA80126118D1C00F4713C /* XCRemoteSwiftPackageReference "EITKitMobile" */;
+			productName = EITKitMobile;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		229DAAE7261186AD0082A728 /* MeatMonitor.xcdatamodeld */ = {
