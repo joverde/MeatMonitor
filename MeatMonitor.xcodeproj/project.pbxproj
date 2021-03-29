@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229DAADF261186AC0082A728 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAADE261186AC0082A728 /* AppDelegate.swift */; };
+		229DAAE1261186AC0082A728 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAE0261186AC0082A728 /* SceneDelegate.swift */; };
+		229DAAE3261186AC0082A728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAE2261186AC0082A728 /* ViewController.swift */; };
+		229DAAE6261186AC0082A728 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229DAAE4261186AC0082A728 /* Main.storyboard */; };
+		229DAAE9261186AD0082A728 /* MeatMonitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAE7261186AD0082A728 /* MeatMonitor.xcdatamodeld */; };
+		229DAAEB261186AD0082A728 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229DAAEA261186AD0082A728 /* Assets.xcassets */; };
+		229DAAEE261186AD0082A728 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229DAAEC261186AD0082A728 /* LaunchScreen.storyboard */; };
+		229DAAF9261186AE0082A728 /* MeatMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAAF8261186AE0082A728 /* MeatMonitorTests.swift */; };
+		229DAB04261186AE0082A728 /* MeatMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229DAB03261186AE0082A728 /* MeatMonitorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229DAAF5261186AE0082A728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229DAAD3261186AC0082A728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229DAADA261186AC0082A728;
+			remoteInfo = MeatMonitor;
+		};
+		229DAB00261186AE0082A728 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229DAAD3261186AC0082A728 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229DAADA261186AC0082A728;
+			remoteInfo = MeatMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		229DAADB261186AC0082A728 /* MeatMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeatMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229DAADE261186AC0082A728 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229DAAE0261186AC0082A728 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		229DAAE2261186AC0082A728 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229DAAE5261186AC0082A728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229DAAE8261186AD0082A728 /* MeatMonitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MeatMonitor.xcdatamodel; sourceTree = "<group>"; };
+		229DAAEA261186AD0082A728 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229DAAED261186AD0082A728 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229DAAEF261186AD0082A728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229DAAF4261186AE0082A728 /* MeatMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229DAAF8261186AE0082A728 /* MeatMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatMonitorTests.swift; sourceTree = "<group>"; };
+		229DAAFA261186AE0082A728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229DAAFF261186AE0082A728 /* MeatMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeatMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229DAB03261186AE0082A728 /* MeatMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeatMonitorUITests.swift; sourceTree = "<group>"; };
+		229DAB05261186AE0082A728 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229DAAD8261186AC0082A728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAF1261186AE0082A728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAFC261186AE0082A728 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229DAAD2261186AC0082A728 = {
+			isa = PBXGroup;
+			children = (
+				229DAADD261186AC0082A728 /* MeatMonitor */,
+				229DAAF7261186AE0082A728 /* MeatMonitorTests */,
+				229DAB02261186AE0082A728 /* MeatMonitorUITests */,
+				229DAADC261186AC0082A728 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229DAADC261186AC0082A728 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229DAADB261186AC0082A728 /* MeatMonitor.app */,
+				229DAAF4261186AE0082A728 /* MeatMonitorTests.xctest */,
+				229DAAFF261186AE0082A728 /* MeatMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229DAADD261186AC0082A728 /* MeatMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				229DAADE261186AC0082A728 /* AppDelegate.swift */,
+				229DAAE0261186AC0082A728 /* SceneDelegate.swift */,
+				229DAAE2261186AC0082A728 /* ViewController.swift */,
+				229DAAE4261186AC0082A728 /* Main.storyboard */,
+				229DAAEA261186AD0082A728 /* Assets.xcassets */,
+				229DAAEC261186AD0082A728 /* LaunchScreen.storyboard */,
+				229DAAEF261186AD0082A728 /* Info.plist */,
+				229DAAE7261186AD0082A728 /* MeatMonitor.xcdatamodeld */,
+			);
+			path = MeatMonitor;
+			sourceTree = "<group>";
+		};
+		229DAAF7261186AE0082A728 /* MeatMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				229DAAF8261186AE0082A728 /* MeatMonitorTests.swift */,
+				229DAAFA261186AE0082A728 /* Info.plist */,
+			);
+			path = MeatMonitorTests;
+			sourceTree = "<group>";
+		};
+		229DAB02261186AE0082A728 /* MeatMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				229DAB03261186AE0082A728 /* MeatMonitorUITests.swift */,
+				229DAB05261186AE0082A728 /* Info.plist */,
+			);
+			path = MeatMonitorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229DAADA261186AC0082A728 /* MeatMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229DAB08261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitor" */;
+			buildPhases = (
+				229DAAD7261186AC0082A728 /* Sources */,
+				229DAAD8261186AC0082A728 /* Frameworks */,
+				229DAAD9261186AC0082A728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeatMonitor;
+			productName = MeatMonitor;
+			productReference = 229DAADB261186AC0082A728 /* MeatMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229DAAF3261186AE0082A728 /* MeatMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229DAB0B261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitorTests" */;
+			buildPhases = (
+				229DAAF0261186AE0082A728 /* Sources */,
+				229DAAF1261186AE0082A728 /* Frameworks */,
+				229DAAF2261186AE0082A728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229DAAF6261186AE0082A728 /* PBXTargetDependency */,
+			);
+			name = MeatMonitorTests;
+			productName = MeatMonitorTests;
+			productReference = 229DAAF4261186AE0082A728 /* MeatMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		229DAAFE261186AE0082A728 /* MeatMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229DAB0E261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitorUITests" */;
+			buildPhases = (
+				229DAAFB261186AE0082A728 /* Sources */,
+				229DAAFC261186AE0082A728 /* Frameworks */,
+				229DAAFD261186AE0082A728 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229DAB01261186AE0082A728 /* PBXTargetDependency */,
+			);
+			name = MeatMonitorUITests;
+			productName = MeatMonitorUITests;
+			productReference = 229DAAFF261186AE0082A728 /* MeatMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229DAAD3261186AC0082A728 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					229DAADA261186AC0082A728 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					229DAAF3261186AE0082A728 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 229DAADA261186AC0082A728;
+					};
+					229DAAFE261186AE0082A728 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 229DAADA261186AC0082A728;
+					};
+				};
+			};
+			buildConfigurationList = 229DAAD6261186AC0082A728 /* Build configuration list for PBXProject "MeatMonitor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229DAAD2261186AC0082A728;
+			productRefGroup = 229DAADC261186AC0082A728 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229DAADA261186AC0082A728 /* MeatMonitor */,
+				229DAAF3261186AE0082A728 /* MeatMonitorTests */,
+				229DAAFE261186AE0082A728 /* MeatMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229DAAD9261186AC0082A728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229DAAEE261186AD0082A728 /* LaunchScreen.storyboard in Resources */,
+				229DAAEB261186AD0082A728 /* Assets.xcassets in Resources */,
+				229DAAE6261186AC0082A728 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAF2261186AE0082A728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAFD261186AE0082A728 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229DAAD7261186AC0082A728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229DAAE3261186AC0082A728 /* ViewController.swift in Sources */,
+				229DAADF261186AC0082A728 /* AppDelegate.swift in Sources */,
+				229DAAE1261186AC0082A728 /* SceneDelegate.swift in Sources */,
+				229DAAE9261186AD0082A728 /* MeatMonitor.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAF0261186AE0082A728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229DAAF9261186AE0082A728 /* MeatMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229DAAFB261186AE0082A728 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229DAB04261186AE0082A728 /* MeatMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229DAAF6261186AE0082A728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229DAADA261186AC0082A728 /* MeatMonitor */;
+			targetProxy = 229DAAF5261186AE0082A728 /* PBXContainerItemProxy */;
+		};
+		229DAB01261186AE0082A728 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229DAADA261186AC0082A728 /* MeatMonitor */;
+			targetProxy = 229DAB00261186AE0082A728 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229DAAE4261186AC0082A728 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229DAAE5261186AC0082A728 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229DAAEC261186AD0082A728 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229DAAED261186AD0082A728 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229DAB06261186AE0082A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229DAB07261186AE0082A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229DAB09261186AE0082A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229DAB0A261186AE0082A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229DAB0C261186AE0082A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeatMonitor.app/MeatMonitor";
+			};
+			name = Debug;
+		};
+		229DAB0D261186AE0082A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MeatMonitor.app/MeatMonitor";
+			};
+			name = Release;
+		};
+		229DAB0F261186AE0082A728 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeatMonitor;
+			};
+			name = Debug;
+		};
+		229DAB10261186AE0082A728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TRFJFDRBMR;
+				INFOPLIST_FILE = MeatMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jover.MeatMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MeatMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229DAAD6261186AC0082A728 /* Build configuration list for PBXProject "MeatMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229DAB06261186AE0082A728 /* Debug */,
+				229DAB07261186AE0082A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229DAB08261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229DAB09261186AE0082A728 /* Debug */,
+				229DAB0A261186AE0082A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229DAB0B261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229DAB0C261186AE0082A728 /* Debug */,
+				229DAB0D261186AE0082A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229DAB0E261186AE0082A728 /* Build configuration list for PBXNativeTarget "MeatMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229DAB0F261186AE0082A728 /* Debug */,
+				229DAB10261186AE0082A728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		229DAAE7261186AD0082A728 /* MeatMonitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				229DAAE8261186AD0082A728 /* MeatMonitor.xcdatamodel */,
+			);
+			currentVersion = 229DAAE8261186AD0082A728 /* MeatMonitor.xcdatamodel */;
+			path = MeatMonitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 229DAAD3261186AC0082A728 /* Project object */;
+}
